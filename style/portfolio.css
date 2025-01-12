@@ -110,8 +110,27 @@ main{
 
 /* about styles */
 .about{
+  font-family: "Open Sans", serif;
   border-radius: 10px;
   padding: 130px 150px;
   text-align: center;
   margin-top: 130px;
+}
+.about-items{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.item-title{
+  font-family: "Open Sans", serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #757575;
+}
+.description{
+  font-size: 20px;
+  font-weight: bold;
+  color: #474747;
 }
