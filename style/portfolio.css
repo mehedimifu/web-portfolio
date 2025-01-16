@@ -58,13 +58,17 @@ nav ul a{
 
 .section-title{
   font-size: 35px;
-  sont-weight: bold;
+  font-weight: bold;
   color: #181818;
 }
 .section-description{
   font-size: 18px;
   color: #757575;
 }
+.text-center{
+  text-align: center;
+}
+
 
 /* header */
 .header{
@@ -105,6 +109,10 @@ main{
   max-width: 1140px;
   margin: 0 auto;
 }
+main section{
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
 
 
 
@@ -133,4 +141,45 @@ main{
   font-size: 20px;
   font-weight: bold;
   color: #474747;
+}
+/* skills section */
+.skills-container{
+  display: flex;
+  gap: 24px;
+}
+.skill{
+  padding: 30px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  border-redius: 5px;
+  margin-top: 50px;
+}
+/* resume column style */
+.resume-container{
+  display:flex;
+  gap: 24px;
+  margin-bottom: 50px;
+}
+
+btn-primary{
+  text-align: center;
+}
+
+
+/* Footer Style */
+footer{
+  padding: 130px 230px;
+  display:flex;
+  gap: 100px;
+}
+
+.footer-column{
+  width: 50%;
+}
+
+footer input[type="text"], input[type="email"], footer textarea{
+  hight: 64px;
+  display: block;
+  padding: 18px 349px 18px 30px;
+  margin-bottom: 24px;
+  border: none;
 }
